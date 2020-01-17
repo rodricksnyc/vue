@@ -12,7 +12,7 @@ var homeNavBlockTemplate = "\n\t<div class=\"home-nav__block\" :class=\"[{'home-
 //v-on:mouseleave="hide"homeNavBlockTemplate
 //
 
-var homeNavListItemTemplate = "\n\t<li>\n\t\t<a class=\"home-nav__list-item\" tabindex=\"0\" v-on:click=\"$emit('change', section.one.position)\" v-on:keypress=\"$emit('change', section.one.position)\">\n\t\t\t<p class=\"home-nav__text\">{{ section.title }}</p>\n\t\t</a>\n\t\t\n\t</li>\n";
+var homeNavListItemTemplate = "\n\t<li>\n\t\t<a class=\"home-nav__list-item example\" tabindex=\"0\" v-on:click=\"$emit('change', section.one.position)\" v-on:keypress=\"$emit('change', section.one.position)\">\n\t\t\t<p class=\"home-nav__text hover hover-2\">{{ section.title }}</p>\n\t\t</a>\n\t\t\n\t</li>\n";
 
 //<a class="home-nav__list-item home-nav__list-item--subitem" v-if="section.two" v-on:click="$emit('change', section.two.position)">
 //			<p class="home-nav__text">{{ section.title }} details</p>
@@ -27,7 +27,7 @@ var appTemplate = "\n\t<div class=\"wrapper\" v-on:touchstart=\"handleTouchStart
 
 var navMenuTemplate = "\n\t<div class=\"nav-menu\">\n\t\t<div v-on:click=\"slideRight\" class=\"nav-menu__button\"></div>\n\t\t<div v-on:click=\"slideLeft\" class=\"nav-menu__shade nav-menu--hidden\"></div>\n\t\t<div class=\"nav-menu__menu nav-menu--left\">\n\t\t\t<!-- <div v-on:click=\"slideLeft\" class=\"nav-menu__close\">X</div> -->\n\t\t\t<nav-menu__list-item v-on:change=\"changePass\" v-for=\"item in props\" :active=\"module\" v-bind:module=\"item\"></nav-menu__list-item>\n\t\t</div>\n\t</div>\n";
 
-var navMenuListItemTemplate = "\n\t<div class=\"nav-menu__list-item\"  v-bind:class=\"[module.blockColor, {'nav-menu--hidden': active !== module}]\" :style=\"{backgroundImage: module.img}\">\n\t\t<a not-href=\"module.link\" v-bind:class=\"{'nav-menu__list-title--active': active === module }\" v-on:click=\"clickHandler\" class=\"nav-menu__list-title\">\n\t\t\t<p class=\"nav-menu__text\">{{ module.title }}</p>\n\t\t</a>\n\t\t<div v-for=\"item in module.sections\" class=\"Fix-me\">\n\t\t\t<a class=\"nav-menu__list-section\" v-on:click=\"$emit('change', item.one.position)\"  v-if=\"item.title\" ><p class=\"nav-menu__text\">{{ item.title }}</p></a>\n\t\t</div>\n\t</div>\n";
+var navMenuListItemTemplate = "\n\t<div class=\"nav-menu__list-item\"  v-bind:class=\"[module.blockColor, {'nav-menu--hidden': active !== module}]\" :style=\"{backgroundImage: module.img}\">\n\t\t<a not-href=\"module.link\" v-bind:class=\"{'nav-menu__list-title--active': active === module }\" v-on:click=\"clickHandler\" class=\"nav-menu__list-title example\">\n\t\t\t<p class=\"nav-menu__text hover hover-2\">{{ module.title }}</p>\n\t\t</a>\n\t\t<div v-for=\"item in module.sections\" class=\"Fix-me\">\n\t\t\t<a class=\"nav-menu__list-section example\" v-on:click=\"$emit('change', item.one.position)\"  v-if=\"item.title\" ><p class=\"nav-menu__text smaller hover hover-3\">{{ item.title }}</p></a>\n\t\t</div>\n\t</div>\n";
 
 //<a class="nav-menu__list-section nav-menu__list-section--subsection" v-on:click="$emit('change', item.two.position)" v-if="item.two"><p class="nav-menu__text">{{item.titleTwo}}</p></a>
 

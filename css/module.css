@@ -117,6 +117,105 @@
 	border-bottom: 1px solid rgb(15,128,156);
 }
 
+/* new module 4 */
+
+.module-four .module-intro__panel {
+	background-color: rgba(55,20,74,.6);
+}
+
+.module-four .module-intro__panel-ribbon {
+	background-color: rgba(55,20,74,.8);
+}
+
+.module-four .module-intro__title {
+	background-color: rgb(55,20,74);
+}
+
+.module-four .module-intro__footer {
+	font-style: italic;
+}
+
+.module-four .module-intro__footer::after {
+	content: "";
+	position: absolute;
+	top: 0vw;
+	left: 0vw;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(15,128,156);
+	z-index: -1;
+}
+
+.module-four .section-content {
+	/*background-image: url('../assets/clientsBackgroundImage.png');*/
+}
+
+.module-four .section-content__word-art {
+	/*background-image: url('../assets/clientsTypography.svg');*/
+}
+
+.module-four .section-content__module-title {
+	background-color: #7a3563;
+}
+
+.module-four .section-content__content-panel {
+	background-color: #8a4d76;
+	border-left: 4.25vw solid #6a2150;
+	border-right: 2.55vw solid rgba(255,255,255,.12);
+}
+
+.module-four .section-content__footer {
+	background-color: rgba(15,128,156,.5);
+}
+
+.module-four .section-content__footer::after {
+	background-color: rgb(15,128,156);
+}
+
+.module-four .section-transition--outro {
+	background-color: rgb(55,20,74);
+}
+
+.module-four .section-transition--outro:hover, .module-four .section-transition--outro:focus {
+	background-color: rgb(66,134,63);
+}
+
+.module-four .tab-panel__tab, .module-four .modal__tab {
+	background-color: #00417b;
+}
+
+.module-four .tab-panel__tab:hover, .module-four .modal__tab:hover, .module-four .tab-panel__tab:focus, .module-four .modal__tab:focus {
+	background-color: #5a023c;
+}
+
+.module-four .tab-panel__tab--active, .module-four .modal__tab--active {
+	background-color: #5a023c;
+}
+
+.module-four .example-box:nth-child(1)::before {
+	background-color: rgba(55,20,74,.75);
+}
+
+.module-four .example-box:nth-child(2)::before {
+	background-color: rgba(20, 72, 124,.75);
+}
+
+.module-four .example-box:nth-child(3)::before {
+	background-color: rgba(15,128,156,.75);
+}
+
+.module-four .modal__box {
+	border-left: 15vw solid rgba(55,20,74,.4);
+	border-right: 4vw solid rgba(55,20,74,.4);
+}
+
+.module-four .modal__title {
+	color: rgba(55,20,74,1);
+	border-bottom: 1px solid rgb(15,128,156);
+}
+
+
+
 
 /*--------------------- timeline --------------------*/
 
@@ -987,7 +1086,7 @@ svg a:focus {
     font-size: 1vw;
     line-height: 1.2vw;
     width: 14vw;
-	
+
 }
 
 .stage__headings {
@@ -1346,7 +1445,7 @@ svg a:focus {
 }
 
 .stage__popup {
-     display: none; 
+     display: none;
     position: absolute;
     top: 3vw;
     left: -2vw;
@@ -1379,7 +1478,7 @@ svg a:focus {
 	border-bottom: 1.5vw solid #BB3D24;
 }
 
-.stage--badge_outline_0 .stage__popup {	
+.stage--badge_outline_0 .stage__popup {
 	border-bottom: 1.5vw solid #59023B;
 }
 
@@ -1395,21 +1494,21 @@ svg a:focus {
 	border-bottom: 1.5vw solid rgb(55, 20, 74);
 }
 
-.project-content__alternate .stage--badge_outline_2 .stage__popup {	
+.project-content__alternate .stage--badge_outline_2 .stage__popup {
 	top: auto;
 	top: initial;
 	bottom: 3vw;
 	border-bottom: 3.5vw solid #0f809c;
 }
 
-.project-content__alternate .stage--badge_outline_4 .stage__popup {	
+.project-content__alternate .stage--badge_outline_4 .stage__popup {
 	top: auto;
 	top: initial;
 	bottom: 3vw;
 	border-bottom: 3.5vw solid #BB3D24;
 }
 
-.project-content__alternate .stage--badge_outline_0 .stage__popup {	
+.project-content__alternate .stage--badge_outline_0 .stage__popup {
 	top: auto;
 	top: initial;
 	bottom: 3vw;
@@ -1585,7 +1684,7 @@ svg a:focus {
 
 .moduleThree_verticalRule0{
 	height: 2vw;
-    border-left: 0.15vw solid #DCE3EB;    
+    border-left: 0.15vw solid #DCE3EB;
     position: absolute;
     left: 6.7vw;
     top: 9.2vw;
@@ -1593,7 +1692,7 @@ svg a:focus {
 
 .moduleThree_verticalRule1{
 	height: 2vw;
-    border-left: 0.15vw solid #DCE3EB;    
+    border-left: 0.15vw solid #DCE3EB;
     position: absolute;
     left: 92vw;
     top: 9.2vw;
@@ -1601,7 +1700,7 @@ svg a:focus {
 
 .project-content__alternate .moduleThree_verticalRule0{
 	height: 2vw;
-    border-left: 0.15vw solid #DCE3EB;    
+    border-left: 0.15vw solid #DCE3EB;
     position: absolute;
     left: 6.7vw;
     top: 43.9vw;
@@ -1609,7 +1708,7 @@ svg a:focus {
 
 .project-content__alternate .moduleThree_verticalRule1{
 	height: 2vw;
-    border-left: 0.15vw solid #DCE3EB;    
+    border-left: 0.15vw solid #DCE3EB;
     position: absolute;
     left: 92vw;
     top: 43.9vw;
@@ -1635,4 +1734,3 @@ svg.project-path.project-path__invert{
 		background-color: red;
 	}
 }*/
-

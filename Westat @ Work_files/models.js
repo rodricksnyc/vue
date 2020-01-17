@@ -1228,8 +1228,8 @@ var modelData = {
 										bullets: [
 											"Senior experts",
 											"Programmers",
-											"Instrumentation specialists", 
-											"Research assistants", 
+											"Instrumentation specialists",
+											"Research assistants",
 											"Subject recruitment support"
 										]
 									},
@@ -1303,7 +1303,7 @@ var modelData = {
 											"Manage the simulation/driving session",
 											"Provide cash incentive",
 											"Retrieve and store the simlator recordings and observational data"
-										] 
+										]
 									},
 									{
 										heading: "Instrument privately owned vehicles for data collection",

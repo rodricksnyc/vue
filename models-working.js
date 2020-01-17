@@ -120,7 +120,7 @@ var modelData = {
 										<div class="timeline-segment__paragraph">Connects staff computers with WesNet</div>
 										<div class="timeline-segment__paragraph">Partners with universities to establish the Joint Program in Survey Methodology</div>
 										<div class="timeline-segment__paragraph">Opens additional Telephone Research Centers around the country</div>
-										<div class="timeline-segment__paragraph">Invests in development of survey and statistical systems</div>	
+										<div class="timeline-segment__paragraph">Invests in development of survey and statistical systems</div>
 									`,
 									listTitle: "Added areas of business:",
 									listItems: [
@@ -204,19 +204,19 @@ var modelData = {
 							{
 								title: "statistical research & survey methods",
 								text: "blah"
-							},							
+							},
 							{
 								title: "program & policy evaluation",
 								text: "blah"
-							},							
+							},
 							{
 								title: "technical assistance",
 								text: "blah"
-							},							
+							},
 							{
 								title: "health research",
 								text: "blah"
-							},							
+							},
 							{
 								title: "communications & social marketing",
 								text: "blah"

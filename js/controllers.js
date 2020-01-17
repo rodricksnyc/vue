@@ -3,7 +3,7 @@
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 
-//Source: http://mcgivery.com/htmlelement-pseudostyle-settingmodifying-before-and-after-in-javascript/ 
+//Source: http://mcgivery.com/htmlelement-pseudostyle-settingmodifying-before-and-after-in-javascript/
 var UID = {
 	_current: 0,
 	getNew: function(){
@@ -19,9 +19,9 @@ HTMLElement.prototype.pseudoStyle = function(element,prop,value){
 	var _sheet = document.getElementById(_sheetId) || document.createElement('style');
 	_sheet.id = _sheetId;
 	var className = "pseudoStyle" + UID.getNew();
-	
-	_this.className +=  " "+className; 
-	
+
+	_this.className +=  " "+className;
+
 	_sheet.innerHTML += " ."+className+":"+element+"{"+prop+":"+value+"}";
 	_head.appendChild(_sheet);
 	return this;
@@ -205,7 +205,7 @@ Vue.component('search-section', {
 						var pages = [this.props[module].sections[section].one, this.props[module].sections[section].two, this.props[module].sections[section].three, this.props[module].sections[section].four];
 						// console.log('pages');
 						// console.log(pages);
-						
+
 						for (var i = 0; i < pages.length; i++) {
 							// sift through pages, up to four
 							var object = {};
@@ -484,7 +484,7 @@ Vue.component('home-nav__block', {
 	props: ['module', 'order', 'active', 'index', 'pinned'],
 	methods: {
 		reveal: function reveal(e) {
-			// this.active ? this.$emit('change', this.order[this.module.sections.intro.one.position]) : 
+			// this.active ? this.$emit('change', this.order[this.module.sections.intro.one.position]) :
 			this.$emit('blockActive', this.index);
 		},
 		hide: function hide(e) {
@@ -604,7 +604,7 @@ Vue.component('accordion-panel', {
 		};
 	},
 	created: function created() {
-		// I don't think this router function should work. 
+		// I don't think this router function should work.
 		// specifically, given 2/0, intended to rout to the first panel in the third
 		// tab, the logic should ignore the 0 and rout to the third panel. It doesn't
 		// seem to, though. I'll test more when I can.
@@ -684,7 +684,7 @@ Vue.component('modal', {
 	},
 	updated: function updated() {
 
-		// var height = 
+		// var height =
 
 		if (document.querySelector('.modal__text--overview')) {
 			console.log(parseInt(window.getComputedStyle(document.querySelector('.modal__text--overview')).height));
@@ -830,7 +830,7 @@ Vue.component('timeline-modal', {
 			// 	let int = i;
 			// 	window.setTimeout(function(){
 			// 		console.log(int);
-			// 		document.querySelector('.timeline-box').scrollTop = scrollTop + (int/500) * (topPos - scrollTop);	
+			// 		document.querySelector('.timeline-box').scrollTop = scrollTop + (int/500) * (topPos - scrollTop);
 			// 	}, int)
 			// }
 			// window.setTimeout(function(){
@@ -1207,26 +1207,3 @@ if(window.location.href.indexOf('moduleThree') != -1 && window.location.href.ind
 	notHome();
 }
 //<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/157289578?byline=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

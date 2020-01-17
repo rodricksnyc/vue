@@ -145,8 +145,8 @@ var modelData = {
 						position: 3,
 						definitions: [{
 							def: "A project team typically includes statisticians, methodologists, systems developers, questionnaire designers, data collectors, data managers and analysts, and other skilled technical and support staff.",
-							top: "2vw",
-							left: "53vw"
+							top: "3vw",
+							left: "56vw"
 						}],
 						wordArt: "url('assets/knowledge type.png')",
 						content: "<p>Westat provides custom solutions that rely on experts throughout the company, staff with unique skills and experience, allowing for fresh perspectives and innovation.</p>\n\n\t\t\t\t\t\t\t<p>Throughout your career, you will have opportunities to apply and build your individual expertise as well as collaborate with Westat staff across the study areas and departments. This <a class=\"definition-popup__link 0\" tabindex=\"1\">dynamic team structure</a> is one way we continue to build our corporate expertise.</p>"
@@ -1298,8 +1298,8 @@ var modelData = {
 										bullets: [
 											"Senior experts",
 											"Programmers",
-											"Instrumentation specialists", 
-											"Research assistants", 
+											"Instrumentation specialists",
+											"Research assistants",
 											"Subject recruitment support"
 										]
 									},
@@ -1375,7 +1375,7 @@ var modelData = {
 											"Manage the simulation/driving session",
 											"Provide cash incentive",
 											"Retrieve and store the simlator recordings and observational data"
-										] 
+										]
 									},
 									{
 										heading: "Instrument privately owned vehicles for data collection",
@@ -1451,7 +1451,7 @@ var modelData = {
 						title: "Clinical Site Monitoring",
 						invert: true,
 						intro: {
-							text : 'Clinical site monitoring is performed as a standard practice for studies involving human subjects participating in a clinical trial.  Frequent monitoring at each clinical center, or site, where the trial is taking place is done to assure that clinical trials are conducted ethically and according to protocol.',  
+							text : 'Clinical site monitoring is performed as a standard practice for studies involving human subjects participating in a clinical trial.  Frequent monitoring at each clinical center, or site, where the trial is taking place is done to assure that clinical trials are conducted ethically and according to protocol.',
 							img_0 : 'url(\'./assets/moduleThreeIntros/clinical_intro_lftcircle.png\')',
 							img_1 : 'url(\'./assets/moduleThreeIntros/clinical_intro_midcircle.png\')',
 							img_2 : 'url(\'./assets/moduleThreeIntros/clinic_intro_rtcircle.png\')'
@@ -1502,11 +1502,11 @@ var modelData = {
 										bullets: [
 											"Meet with Corporate Officer",
 											"Identify stakeholders and communications channels",
-											"Confirm Project Manager and initial study team", 
-											"Identify regional Clinical Research Associates", 
+											"Confirm Project Manager and initial study team",
+											"Identify regional Clinical Research Associates",
 											"Confirm deliverables schedule",
 											"Document initial client interactions after clarifying scope of work",
-											"Apply Area standard operating procedures (SOPs) for project start-up"										
+											"Apply Area standard operating procedures (SOPs) for project start-up"
 										]
 									},
 									{
@@ -1544,7 +1544,7 @@ var modelData = {
 								alternate: false,
 								subsections: [
 									{
-										heading: "Obtain/verify IRB approval(s)",										
+										heading: "Obtain/verify IRB approval(s)",
 										bullets: [
 											"Westat",
 											"Local institutions/universities",
@@ -1558,14 +1558,14 @@ var modelData = {
 										heading: "Verify that site monitors are trained"
 									},
 									{
-										heading: "Add additional staff, make technical and admin assignments",										
+										heading: "Add additional staff, make technical and admin assignments",
 										bullets: [
 											"Train staff on project-specific SOPs",
 											"Establish schedule for monitoring specific sites"
 										]
 									},
 									{
-										heading: "Verify planned data management processes with PI and COR",										
+										heading: "Verify planned data management processes with PI and COR",
 										bullets: [
 											"Confirm database(s) of record"
 										]
@@ -1685,7 +1685,7 @@ var modelData = {
 								top:"11.5vw",
 								width:"5vw",
 								height:"5vw"
-							},							
+							},
 							{
 								art_0: "url('./assets/icon_Clipboard.svg')",
 								left: "79.5vw",
@@ -1714,8 +1714,8 @@ var modelData = {
 										bullets: [
 											"Engage specific staff identified in proposal",
 											"Task leads recruit members of each task team and assign responsibilities",
-											"Task teams include Study Design and Questionnaires, Statistics, DMTRC, and Systems", 
-											"Hold kick-off meeting to introduce staff and objectives", 
+											"Task teams include Study Design and Questionnaires, Statistics, DMTRC, and Systems",
+											"Hold kick-off meeting to introduce staff and objectives",
 											"Establish standard meetings, network space, directory structure and rights, and obtain charge codes"
 										]
 									},
@@ -1739,7 +1739,7 @@ var modelData = {
 								alternate: true,
 								subsections: [
 									{
-										heading: "Obtain OMB/IRB approval",										
+										heading: "Obtain OMB/IRB approval",
 										bullets: [
 											"Of contact protocol and materials",
 											"Of draft questionnaire",
@@ -1790,7 +1790,7 @@ var modelData = {
 										bullets: [
 											"Load sample file in management system and in web questionnaire if needed for preloads",
 											"Mail advance letters with web instructions"
-										] 
+										]
 									},
 									{
 										heading: "Collect Data",
@@ -1933,8 +1933,8 @@ var modelData = {
 										bullets: [
 											"Subject matter experts",
 											"Statisticians",
-											"Data collection operations managers", 
-											"Systems leads", 
+											"Data collection operations managers",
+											"Systems leads",
 											"Data Management leads"
 										]
 									},
@@ -1964,7 +1964,7 @@ var modelData = {
 								alternate: false,
 								subsections: [
 									{
-										heading: "Solidify next level of survey design plan details",										
+										heading: "Solidify next level of survey design plan details",
 										bullets: [
 											"Survey design and testing",
 											"Frame development",
@@ -2023,7 +2023,7 @@ var modelData = {
 											"Prepare OMB package",
 											"Define data management and delivery processes",
 											"Define production reports for all audiences"
-										] 
+										]
 									},
 									{
 										heading: "Conduct end-to-end system/process pretest"
@@ -2033,7 +2033,7 @@ var modelData = {
 										bullets: [
 											"Sample frame(s) development/creation at all stages",
 											"Select samples at all stages"
-										] 
+										]
 									},
 									{
 										heading: "Recruit sampled units"
@@ -2157,17 +2157,368 @@ var modelData = {
 				// }
 			}
 		},
+		// moduleFour: {
+		// 	title: "where to find it",
+		// 	img: "url('./assets/resource main menu.jpg')",
+		// 	blockColor: "home-nav--crimson",
+		// 	link: "../two/intro.html",
+		// 	class: 'module-four',
+		// 	introFooter: "Westat is one of the foremost professional service corporations of its kind",
+		// 	sections: {
+		// 		dummy: {
+		// 			title: "bitch"
+		// 		}
+		// 	}
+		// },
+
 		moduleFour: {
 			title: "where to find it",
 			img: "url('./assets/resource main menu.jpg')",
 			blockColor: "home-nav--crimson",
-			link: "../two/intro.html",
+			link: "../one/intro.html",
 			class: 'module-four',
 			introFooter: "Westat is one of the foremost professional service corporations of its kind",
 			sections: {
-				dummy: {
-					title: "coming soon"
+				intro: {
+					introTitle: "where to find it",
+					introFooter: "2000+ dedicated employee-owners & staff working around the world",
+					backgroundImage: "url('assets/Mod1title image.jpg')",
+					four: {
+						format: 'intro',
+						position: 21
+					}
+				},
+
+				resources: {
+					title: "resources",
+					titleTwo: "resources",
+					module: "where to find it",
+					backgroundImage: "url('assets/expertise background.jpg')",
+					footer: "Westat forms targeted teams to meet project requirements",
+
+					one: {
+						format: 1,
+						position: 22,
+						footer: " ",
+						awards: {
+							title: "Westat's Methodology and Technology Highlights",
+							body: "<ul>\n \t\t\t\t\t\t\t\t\t\t<li>Eye-tracking analysis for improved questionnaire design </li>\n\t\t\t\t\t\t\t\t\t\t<li>Incentive experiments to improve survey response</li>\n\t\t\t\t\t\t\t\t\t\t<li>Global positioning systems (GPS) for improved survey efficiency</li>\n\t\t\t\t\t\t\t\t\t\t<li>Dashboard to monitor key performance indicators</li>\n\t\t\t\t\t\t\t\t\t\t<li>Integrated information flows across collection modes to improve management </li>\n\t\t\t\t\t\t\t\t\t\t<li>Environmental and biological/genetic specimen tracking to meet clinical standards</li>\n\t\t\t\t\t\t\t\t\t\t<li>Integrated coordinating centers for improved multicenter collaborative\xA0studies</li>\n\t\t\t\t\t\t\t\t\t\t<li>High-speed scanning of materials to reduce costs and improve quality</li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t",
+							images: ["assets/EAGLE.png", "assets/M3.png", "assets/Pd3.png"]
+						},
+						tabs: [{
+							name: "employee",
+							text: "<p>We lead our industry in collecting and managing data from surveys, biomarkers, assessments, administrative records, clinical trials, qualitative studies, and other sources. Our experts apply innovative methods and technologies to project needs, from small, local, one-off research activities to large-scale national and international programs spanning decades. Across all modes of data collection and through to data delivery, Westat maintains best practices for high-quality data products.</p>\n \t\t\t\t\t\t\t\t\t<p>Westat has pioneered various <a class=\"award-modal__link\" tabindex=\"1\">methodologies and technologies</a>.</p>",
+							footer: "We lead our industry in data collection & management"
+							// examples: [{
+							// 	title: "MEPS",
+							// 	img: "url('assets/MEPS.png')",
+							// 	modal: {
+							// 		title: "Medical Expenditure Panel Survey (MEPS) – Household Component",
+							// 		body: "<p><strong class=\"example-modal__subhead\">Client:</strong> Agency for Healthcare Research and Quality (AHRQ) and National Center for Health Statistics (NCHS)</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<p><strong class=\"example-modal__subhead\">Project Overview</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<p> The MEPS produces a series of data files on health care use and expenditures for the noninstitutionalized U.S. civilian population. The survey uses overlapping household panels, with a new panel sampled each year from households participating in the prior year\u2019s National Health Interview Survey. MEPS households complete five rounds of CAPI interviews over 30 months, providing information for 2 calendar years. The Household Component (HC) is supplemented by a Medical Provider Component (MPC), in which additional information on diagnoses, services, charges, and payments is collected from providers and pharmacies that provide services to household respondents during the survey period. </p>",
+							// 		topImage: "assets/MEPS.png",
+							// 		bottomImage: "assets/NAEP casestudy.png"
+							// 	}
+							// },
+							// {
+							// 	title: "PATH",
+							// 	img: "url('assets/PATH.png')",
+							// 	modal: {
+							// 		title: "Population Assessment of Tobacco and Health Study (PATH 1.0 and 2.0)",
+							// 		body: "<p><strong class=\"example-modal__subhead\">Client:</strong> National Institute on Drug Abuse (NIDA)</p>\n\t\t\t\t\t\t\t\t\t\t\t\t<p><strong class=\"example-modal__subhead\">Project Overview</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t<p> The 2009 Family Smoking Prevention and Tobacco Control Act (FSPTCA) gave FDA the authority to regulate the advertising, labeling, and ingredients of tobacco products. In support of NIDA and FDA, Westat is conducting a large national longitudinal cohort study of U.S. tobacco users and nonusers (aged 12+). By measuring the behavioral and health effects associated with FSPTCA regulatory changes, this study will provide an empirical evidence base for developing, implementing, and evaluating regulations governing tobacco products. In addition to interview data, the PATH Study collects biologic specimens.  </p>",
+							// 		topImage: "assets/PATH.png",
+							// 		bottomImage: "assets/NAEP casestudy.png"
+							// 	}
+							// }, {
+							// 	title: "50-State Survey of Fishing, Hunting, & Wildlife",
+							// 	img: "url('assets/AFWA.png')",
+							// 	modal: {
+							// 		title: "50-State Survey of Fishing, Hunting, and Wildlife-Related Recreation",
+							// 		body: "<p><strong class=\"example-modal__subhead\">Client:</strong> Association of Fish and Wildlife Associations</p>\n\t\t\t\t\t\t\t\t\t\t\t\t<p><strong class=\"example-modal__subhead\">Project Overview</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t<p> Westat conducted 50 individual state surveys on fishing, hunting, and wildlife watching in CY2016. The survey data is being used to generate national and state-level estimates. In addition, results obtained using a new methodology (mail surveys sent to a two-phase address-based sample) are being compared to results obtained nationally and in four states from a separate survey also conducted in CY2016 by the U.S. Census Bureau.</p>",
+							// 		topImage: "assets/AFWA.png",
+							// 		bottomImage: "assets/NAEP casestudy.png"
+							// 	}
+							// }]
+						}, {
+							name: "project",
+							text: "<p>We lead in conducting comprehensive statistical research and applying innovative survey methods.</p>\n\t\t\t\t\t\t\t\t\t<p>This support work cuts across several dimensions:\xA0survey design,\xA0methodological research,\xA0pretesting methods,\xA0statistical design and data science, and\xA0statistical disclosure control.</p>\n\n\t\t\t\t\t\t\t\t\t<p>Westat statisticians and methodologists have deep expertise in all these areas that are well known throughout our industry. These staff work as integral members of our study teams and lead us in applying efficient, unbiased methods to all of our work.</p>\n\n\t\t\t\t\t\t\t\t\t<p>In a nutshell, our statisticians and methodologists focus on accurate measurement and the best ways to accomplish it.</p>",
+							footer: "We lead our industry in research & survey methods"
+							// examples: [{
+							// 	title: "NAEP",
+							// 	img: "url('assets/NAEP.png')",
+							// 	modal: {
+							// 		title: "National Assessment of Educational Progress (NAEP)",
+							// 		body: "<p><strong class=\"example-modal__subhead\">Client:</strong> National Center for Education Statistics (NCES)</p>\n\t\t\t\t\t\t\t\t\t\t\t\t<p><strong class=\"example-modal__subhead\">Project Overview</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t<p> NAEP is an ongoing, congressionally mandated survey of the knowledge and skills of young Americans in a variety of academic subjects. Westat has been the sampling and data collection contractor for NAEP since 1983. In addition to planning all aspects of data collection, every 2 years, Westat hires, trains, and supervises thousands of field staff, who assess more than 1,000,000 students in over 18,000 schools in a 6-week window. In addition to state, national, and long-term trend analyses, Westat regularly conducts special studies, including transcript studies, studies linking NAEP to other assessment programs, technology-based assessments, writing portfolio studies, studies of group learning, and oral reading studies.</p>",
+							// 		topImage: "assets/NAEP.png",
+							// 		bottomImage: "assets/NAEP casestudy.png"
+							// 	}
+							// }, {
+							// 	title: "ANES",
+							// 	img: "url('assets/ANES.png')",
+							// 	modal: {
+							// 		title: "American National Election Studies (ANES) 2016 Time Series Study: Internet Component",
+							// 		body: "<p><strong class=\"example-modal__subhead\">Client:</strong> Stanford University </p>\n\t\t\t\t\t\t\t\t\t\t\t\t<p><strong class=\"example-modal__subhead\">Project Overview</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t<p> The ANES 2016 Time Series Study is the premier academic survey covering U.S. presidential elections. This contract covered two modes of data collection: a face-to-face component and an internet component. The internet component was built upon the results of the ANES Recruitment Pretest Study that Westat conducted to test several experimental protocols for recruiting web participants via mail. The ANES 2016 Times Series Study consisted of two interviews, a pre-election and a post-election interview, spanning approximately two months before and after Election Day 2016 respectively. The interviews collected information on electoral participation, voting behavior, public opinion, media exposure, cognitive style, and values and predispositions. The target population of the ANES was U.S. eligible voters, defined as U.S. citizens residing at a sampled residential address who were 18 years or older on Election Day, in the contiguous U.S. plus D.C.</p>",
+							// 		topImage: "assets/ANES.png",
+							// 		bottomImage: "assets/NAEP casestudy.png"
+							// 	}
+							// }, {
+							// 	title: "Diabetes Modeling Project",
+							// 	img: "url('assets/CDC.png')",
+							// 	modal: {
+							// 		title: "Diabetes Modeling Project",
+							// 		body: "<p><strong class=\"example-modal__subhead\">Client:</strong> Centers for Disease Control and Prevention (CDC)</p>\n\t\t\t\t\t\t\t\t\t\t\t\t<p><strong class=\"example-modal__subhead\">Project Overview</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t<p> The lack of state and local population estimates of risk factor control affects CDC\u2019s ability to measure, stimulate, and track improvement in chronic disease prevention. During this 3-year project, Westat is assembling, combining, and validating existing data sources to produce data sets and composite estimates of levels of and trends in the control of diabetes, prediabetes, risk factors, and diabetes complications, using data from a number of jurisdictions and the nation. The results will serve as a prototype for a sustainable system to monitor the outcomes of chronic disease prevention activities.</p>",
+							// 		topImage: "assets/CDC.png",
+							// 		bottomImage: "assets/NAEP casestudy.png"
+							// 	}
+							// }]
+						},
+						{
+							name: "corporate",
+							text: "<p>We lead in program and policy evaluation by observing, analyzing, and measuring the fit and function of a variety of social services available to Americans.</p>\n\t\t\t\t\t\t\t\t\t<p>Applying our expertise in program evaluation, we answer important questions such as:</p>\n\t\t\t\t\t\t\t\t\t<ul class=\"tab-panel__list\">\n\t\t\t\t\t\t\t\t\t\t<li>Is gender-sensitive substance treatment effective?</li>\n\t\t\t\t\t\t\t\t\t\t<li>Are government services for older Americans reaching their target?</li>\n\t\t\t\t\t\t\t\t\t\t<li>Does a school-based reading program improve young students\u2019\xA0reading?</li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t",
+							footer: "We lead our industry in program & policy evaluation"
+							// examples: [{
+							// 	title: "SED",
+							// 	img: "url('assets/SED.png')",
+							// 	modal: {
+							// 		title: "Supported Employment Demonstration (SED) Project",
+							// 		body: "<p><strong class=\"example-modal__subhead\">Client:</strong> Social Security Administration (SSA)</p>\n\t\t\t\t\t\t\t\t\t\t\t\t<p><strong class=\"example-modal__subhead\">Project Overview</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t<p> SSA contracted with Westat to implement and evaluate the SED which provides integrated mental health and vocational services to people with mental illness who were recently denied Social Security disability benefits. The evaluation used a randomized controlled trial to compare the outcomes of two treatment groups (full service and basic service) and a control group. Data collection included computer-assisted baseline (in-person) and blinded quarterly (telephone) interviews, collection of SSA administrative and program data, site visits (including fidelity assessments), qualitative interviews with site administrators and service providers, participant focus groups, and ethnographic interviews with participants and nonparticipants. The evaluation includes five components.</p>",
+							// 		topImage: "assets/SED.png",
+							// 		bottomImage: "assets/NAEP casestudy.png"
+							// 	}
+							// }, {
+							// 	title: "NSOAAP",
+							// 	img: "url('assets/ACL.png')",
+							// 	modal: {
+							// 		title: "Redesign of the National Survey of Older Americans Act Participants (NSOAAP)",
+							// 		body: "<p><strong class=\"example-modal__subhead\">Client:</strong> Administration for Community Living/Administration on Aging (ACL/AOA), U.S. Department of Health and Human Services (HHS)</p>\n\t\t\t\t\t\t\t\t\t\t\t\t<p><strong class=\"example-modal__subhead\">Project Overview</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t<p> The NSOAAP is a yearly national survey of Older Americans Act participants. The CATI survey covers transportation, congregate and home-delivered meals, case management, homemaker services, and the National Family Caregiver Support Program. Westat examined redesign options, including incorporation of a longitudinal component, development of core sets of questions and measures, introduction of rotating topical modules, assessment of the feasibility and cost of state-level data collection, and incorporation of questions from other surveys. Westat collaborated with ACL/AOA to produce updated questions for at least three surveys, conducted ad hoc analyses, and delivered a final briefing and report.</p>",
+							// 		topImage: "assets/ACL.png",
+							// 		bottomImage: "assets/NAEP casestudy.png"
+							// 	}
+							// }]
+						}]
+					}
+				},
+				project: {
+					title: 'project',
+					titleTwo: 'project',
+					link: '../two/project1.html',
+					backgroundImage: "url('./assets/contractBackgroundImage.svg')",
+					wordArt: "url('./assets/contractsTypography2.svg')",
+					module: "where to find it",
+					footer: "Westat is one of the foremost professional service corporations of its kind",
+					one: {
+						format: 0,
+						position: 23,
+						wordArt: "url('./assets/contractsTypography2.svg')",
+						content: "Contracts are agreements between Westat and clients that describe the specific work to be accomplished and the terms of payment. Clients generally dictate which type of agreement is being offered. There are several types of contracts; it is useful to know their fundamentals. This knowledge can provide the context for your day-to-day work and an understanding of how your tasks are budgeted, priced, and managed. By understanding the subtle differences between contract types, each study team can greatly improve its ability to successfully execute its work."
+					},
+					two: {
+						format: 2,
+						position: 24,
+						tabs: [{
+							name: "Support Services",
+							content: {
+								heights: ['7vw', '8vw', '9vw', '15vw'],
+								segments: [{
+									title: "Blaise",
+									content: "<ul class='accordion-panel__list'><li>Fixed unit or milestone pricing</li><li>Costs are NOT appropriate to discuss with external clients after award</li></ul>"
+								}, {
+									title: "Survey Processing Control",
+									content: "<ul class='accordion-panel__list'><li>Price is fixed and not subject to adjustment unless contract is modified</li><li>Highest return potential, no limit on profit</li></ul>"
+								}, {
+									title: "Eagle",
+									content: "<ul class='accordion-panel__list'><li>Easy contract type for goods, products, materials, quantitative, tangible items</li><li>Not easy contract type for services, intangibles, innovation</li></ul>"
+								}, {
+									title: "Multimode Manager (M3)",
+									content: "<ul class='accordion-panel__list'><li>Based on completion and acceptance of contract-specific outcomes</li><li>Westat must satisfy contract requirements regardless of cost to perform</li><li>Billed at contract-established prices, deliverables, unit costs, milestones, or monthly</li><li>Westat must adhere to the period of performance</li></ul>"
+								}, {
+								title: "Paradata Discovery (Pd3)",
+								content: "<ul class='accordion-panel__list'><li>Based on completion and acceptance of contract-specific outcomes</li><li>Westat must satisfy contract requirements regardless of cost to perform</li><li>Billed at contract-established prices, deliverables, unit costs, milestones, or monthly</li><li>Westat must adhere to the period of performance</li></ul>"
+							}
+
+							]
+							},
+							// examples: [
+							// 	{
+							// 		title: "Early Childhood Longitudinal Study - Kindergarten",
+							// 		img: "url('./assets/contracts-FFP-ECLS.png')"
+							// 	},
+							// 	{
+							// 		title: "National Household Travel Study",
+							// 		img: "url('./assets/contracts-FFP-NHtS.png')"
+							// 	},
+							// 	{
+							// 		title: "Maryland Cancer Registry",
+							// 		img: "url('./assets/contracts-FFP-MD-cancer.png')"
+							// 	}
+							// ],
+							images: []
+						}, {
+							// name: "cost-reimbursement (CR, CRFF)",
+							name: "Technology",
+							content: {
+								text: "",
+								heights: ['8vw', '7vw', '6vw', '15vw'],
+								segments: [{
+									title: "Blaise",
+									content: "<ul class='accordion-panel__list'><li>Fixed unit or milestone pricing</li><li>Costs are NOT appropriate to discuss with external clients after award</li></ul>"
+								}, {
+									title: "Survey Processing Control",
+									content: "<ul class='accordion-panel__list'><li>Price is fixed and not subject to adjustment unless contract is modified</li><li>Highest return potential, no limit on profit</li></ul>"
+								}, {
+									title: "Eagle",
+									content: "<ul class='accordion-panel__list'><li>Easy contract type for goods, products, materials, quantitative, tangible items</li><li>Not easy contract type for services, intangibles, innovation</li></ul>"
+								}, {
+									title: "Multimode Manager (M3)",
+									content: "<ul class='accordion-panel__list'><li>Based on completion and acceptance of contract-specific outcomes</li><li>Westat must satisfy contract requirements regardless of cost to perform</li><li>Billed at contract-established prices, deliverables, unit costs, milestones, or monthly</li><li>Westat must adhere to the period of performance</li></ul>"
+								}, {
+								title: "Paradata Discovery (Pd3)",
+								content: "<ul class='accordion-panel__list'><li>Based on completion and acceptance of contract-specific outcomes</li><li>Westat must satisfy contract requirements regardless of cost to perform</li><li>Billed at contract-established prices, deliverables, unit costs, milestones, or monthly</li><li>Westat must adhere to the period of performance</li></ul>"
+							}
+
+							]
+							},
+							// examples: [
+							// 	{
+							// 		title: "Cancer Trials Support Unit",
+							// 		img: "url('./assets/contracts-CR-CTSU.png')"
+							// 	},
+							// 	{
+							// 		title: "National Assessment of Educational Progress",
+							// 		img: "url('./assets/contracts-CR-NAEP.png')"
+							// 	},
+							// 	{
+							// 		title: "Population Assessment of Tobacco and Health",
+							// 		img: "url('./assets/contracts-CR-PATH.png')"
+							// 	}
+							// ],
+							images: []
+						}, {
+							name: "Informational",
+							content: {
+								text: "",
+								heights: ['13vw', '5vw', '7vw', '13vw'],
+								segments: [{
+									title: "Blaise",
+									content: "<ul class='accordion-panel__list'><li>Fixed unit or milestone pricing</li><li>Costs are NOT appropriate to discuss with external clients after award</li></ul>"
+								}, {
+									title: "Survey Processing Control",
+									content: "<ul class='accordion-panel__list'><li>Price is fixed and not subject to adjustment unless contract is modified</li><li>Highest return potential, no limit on profit</li></ul>"
+								}, {
+									title: "Eagle",
+									content: "<ul class='accordion-panel__list'><li>Easy contract type for goods, products, materials, quantitative, tangible items</li><li>Not easy contract type for services, intangibles, innovation</li></ul>"
+								}, {
+									title: "Multimode Manager (M3)",
+									content: "<ul class='accordion-panel__list'><li>Based on completion and acceptance of contract-specific outcomes</li><li>Westat must satisfy contract requirements regardless of cost to perform</li><li>Billed at contract-established prices, deliverables, unit costs, milestones, or monthly</li><li>Westat must adhere to the period of performance</li></ul>"
+								}, {
+								title: "Paradata Discovery (Pd3)",
+								content: "<ul class='accordion-panel__list'><li>Based on completion and acceptance of contract-specific outcomes</li><li>Westat must satisfy contract requirements regardless of cost to perform</li><li>Billed at contract-established prices, deliverables, unit costs, milestones, or monthly</li><li>Westat must adhere to the period of performance</li></ul>"
+							}
+
+							]
+							},
+							// examples: [
+							// 	{
+							// 		title: "Advertising and Integrated Marketing Solutions",
+							// 		img: "url('./assets/contracts-TM-AIMS.png')"
+							// 	},
+							// 	{
+							// 		title: "Misson Oriented Business Integrated Solutions",
+							// 		img: "url('./assets/contracts-TM-MOBIS.png')"
+							// 	},
+							// 	{
+							// 		title: "National Travel Household Survey Support",
+							// 		img: "url('./assets/contracts-TM-NOPUS.png')"
+							// 	},
+							// 	{
+							// 		title: "Aircraft Noise and Annoyance Research Support",
+							// 		img: "url('./assets/contracts-TM-aircraft.png')"
+							// 	}
+							// ],
+							images: []
+						}, {
+							name: "Locations",
+							content: {
+								text: '',
+								heights: ['13vw', '11vw', '9vw', '7vw'],
+								segments: [{
+									title: "Blaise",
+									content: "<ul class='accordion-panel__list'><li>Fixed unit or milestone pricing</li><li>Costs are NOT appropriate to discuss with external clients after award</li></ul>"
+								}, {
+									title: "Survey Processing Control",
+									content: "<ul class='accordion-panel__list'><li>Price is fixed and not subject to adjustment unless contract is modified</li><li>Highest return potential, no limit on profit</li></ul>"
+								}, {
+									title: "Eagle",
+									content: "<ul class='accordion-panel__list'><li>Easy contract type for goods, products, materials, quantitative, tangible items</li><li>Not easy contract type for services, intangibles, innovation</li></ul>"
+								}, {
+									title: "Multimode Manager (M3)",
+									content: "<ul class='accordion-panel__list'><li>Based on completion and acceptance of contract-specific outcomes</li><li>Westat must satisfy contract requirements regardless of cost to perform</li><li>Billed at contract-established prices, deliverables, unit costs, milestones, or monthly</li><li>Westat must adhere to the period of performance</li></ul>"
+								}, {
+								title: "Paradata Discovery (Pd3)",
+								content: "<ul class='accordion-panel__list'><li>Based on completion and acceptance of contract-specific outcomes</li><li>Westat must satisfy contract requirements regardless of cost to perform</li><li>Billed at contract-established prices, deliverables, unit costs, milestones, or monthly</li><li>Westat must adhere to the period of performance</li></ul>"
+							}
+
+							]
+							},
+							// examples: [
+							// 	{
+							// 		title: "filler",
+							// 		img: ""
+							// 	},
+							// 	{
+							// 		title: "filler",
+							// 		img: ""
+							// 	},
+							// 	{
+							// 		title: "filler",
+							// 		img: ""
+							// 	},
+							// ],
+							images: []
+						}]
+					}
+					// three: {
+					// 	format: 3,
+					// 	position: 14,
+					// 	wordArt: "url('./assets/contractsTypography2.svg')",
+					// 	content: {
+					// 		text: `Academic institutions and nonprofit organizations commonly award grants and cooperative agreements.  Federal agencies also use award grants.`,
+					// 		segments: [
+					// 			{
+					// 				title: "Pricing",
+					// 				content: `<p>Grants are based on cost-reimbursement type of contract with similar budgeting and risks, no fee or profit and requires best effort.</p>
+					// 						  <p>Cooperative agreements require involvement and oversight from the funding agency or prime recipient and often operate like a contract without a fee.</p>`
+					// 			},
+					// 			{
+					// 				title: "Risk and Return",
+					// 				content: `<p>Less specific in the work to be done. Often give latitude in defining the research topic and approach. Same risks as for cost-reimbursement contract type</p>
+					// 						  <p>Are subject to different administrative, cost, and audit requirements than contracts</p>`
+					// 			},
+					// 			{
+					// 				title: "Use and Examples",
+					// 				content: `<p>Easy contract type for goods, products, materials, quantitative, tangible items</p>
+					// 						  <p>Not easy contract type for services, intangibles, innovation</p>`
+					// 			},
+					// 		]
+					// 	}
+					// }
 				}
+
+				// ourWork: {
+				// 	title: "our work",
+				// 	// module: "who we are",
+				// 	// backgroundImage: "",
+				// 	// footer: "Westat invests in & highly engages qualified staff",
+				// 	one: {
+				// 		format: "outro",
+				// 		file: "animations/ourWork.js",
+				// 		fileName: "our-work",
+				// 		transitionText: "what we do",
+				// 		position: 7
+				// 	}
+				// }
+				// outro: {
+
+				// }
 			}
 		},
 		home: {
@@ -2176,7 +2527,7 @@ var modelData = {
 				home: {
 					home: {
 						format: "home",
-						position: 14,
+						position: 25,
 						blocks: {
 							block1: {
 								title: "who we are",
@@ -2203,7 +2554,7 @@ var modelData = {
 							},
 							block4: {
 								title: "where to find it",
-								li: [{ text: '' }],
+								li: [{ text: 'resources' }],
 								img: "url(./assets/resources full.jpg)",
 								class: "home-nav__title home-nav--crimson"
 							}
@@ -2217,39 +2568,6 @@ var modelData = {
 	order: ['["moduleOne", "intro", "one"]', '["moduleOne", "industry", "one"]', '["moduleOne", "legacy", "one"]', '["moduleOne", "expertise", "one"]', '["moduleOne", "expertise", "two"]', '["moduleOne", "culture", "one"]', '["moduleOne", "culture", "two"]', '["moduleOne", "ourWork", "one"]',
 	// '["moduleOne", "outro", "one"]',
 	'["moduleTwo", "intro", "one"]', '["moduleTwo", "subjectAreas", "one"]', '["moduleTwo", "clients", "one"]', '["moduleTwo", "clients", "two"]', '["moduleTwo", "contracts", "one"]', '["moduleTwo", "contracts", "two"]', '["moduleTwo", "proposalProcess", "one"]',
-	'["moduleThree", "intro", "one"]', '["moduleThree", "overview", "one"]', '["moduleThree", "projectJourneys", "one"]', '["moduleThree", "projectJourneys", "two"]', '["moduleThree", "projectJourneys", "three"]', '["moduleThree", "projectJourneys", "four"]', '["home", "home", "home"]']
+	'["moduleThree", "intro", "one"]', '["moduleThree", "overview", "one"]', '["moduleThree", "projectJourneys", "one"]', '["moduleThree", "projectJourneys", "two"]', '["moduleThree", "projectJourneys", "three"]',
+	 '["moduleThree", "projectJourneys", "four"]',  '["moduleFour", "intro", "one"]', '["moduleFour", "resources", "one"]' , '["moduleFour", "project", "two"]']
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

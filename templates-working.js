@@ -10,7 +10,7 @@ var homeNavBlockTemplate = `
 	<div class="home-nav__block" v-on:mouseenter="reveal" v-on:click="$emit('change', order[module.sections.intro.one.position])" v-bind:style="{ backgroundImage: module.img }">
 		<h2 v-bind:class="module.blockColor" class="home-nav__title" :class="[{'home-nav__title--active': active}, module.blockColor]" v-on:click.stop="reveal" >{{ module.title }}</h2>
 		<ul class="home-nav__list" :class="[{'home-nav__list--active': active}, module.blockColor]" v-on:click.stop="" >
-			<home-nav__list-item class="home-nav__list-item" v-for="section in module.sections" v-on:change="changePass" v-bind:section="section"></home-nav__list-item>			
+			<home-nav__list-item class="home-nav__list-item" v-for="section in module.sections" v-on:change="changePass" v-bind:section="section"></home-nav__list-item>
 		</ul>
 	</div>`;
 
@@ -90,7 +90,7 @@ var searchSectionTemplate = `
 		<div v-on:mousedown="$emit('change')" class="search-section__logo"></div>
 		<input v-on:blur="boxIn" v-on:focus="boxOut" class="search-section__bar" id="search" v-on:keyup="search" v-on:keydown.tab.prevent="resultFocus"></input>
 		<div v-on:mousedown="searchButtonClick" tabindex="1" class="search-section__icon"></div>
-		
+
 	</div>
 `
 
@@ -176,7 +176,7 @@ var moduleIntroTemplate = `
 		</div>
 		<div class="module-intro__footer">{{ section.introFooter }}</div>
 	</div>
-`	
+`
 
 
 
@@ -274,7 +274,7 @@ var proposalProcessTemplate = `
 				<circle class="proposal-process__circle" :class="{'proposal-process__circle--blue': index < 6, 'active': index === modalFocus }" :cx="gear.x" :cy="gear.y" :r="gear.radius-gear.depth-1"></circle>
 				<text class="proposal-process__text" :class="{'proposal-process__text--blue': index < 6, 'active': index === modalFocus }" :x="gear.x" :y="gear.y" :dy=".5" text-anchor="middle" font-size="1.6" v-html="gear.text"></text>
 			</g>
-			
+
 		</svg>
 		<proposal-modal :modal="modalFocus ? page.gears[modalFocus].modal : page.gears[0].modal" :class="{'modal--active': modalFocus || modalFocus === 0 }" :modalFocus="modalFocus" v-on:modalClose="close"></proposal-modal>
 	</div>
@@ -340,7 +340,7 @@ var timelineModalTemplate = `
 				            <stop stop-color="rgb(15,128,156)" offset="0.7"/>
 				        </linearGradient>
 				    </defs>
-				   
+
 					<g v-for="(segment, index) in segments">
 						<image :x="index % 2 === 0 ? 53 : 11" :y='segment.cy - 11' width="9" height="9" xlink:href="./assets/Employees_icon_W@W_timeline.svg"></image>
 						<image :x="index % 2 === 0 ? 79.25 : 5.75" :y='segment.cy + 7' width="5" height="5" xlink:href="./assets/Revenue_icon_W@W_timeli
@@ -357,7 +357,7 @@ var timelineModalTemplate = `
 						<path class="timeline-svg__transition-arrow" d="M 43.8 195 L 45 193.8 L 46.2 195"></path>
 					</a>
 				</svg>
-				
+
 			</div>
 		</div>
 `
@@ -369,4 +369,3 @@ var gearTemplate = `
 			<animateTransform v-if="gear.rotate" attributeName="transform" type="rotate" dur="12s" repeatCount="indefinite" :from="from(gear.x, gear.y)" :to="to(gear.x, gear.y, index)"></animateTransform>
 		</path>
 `
-
