@@ -120,15 +120,16 @@
 /* new module 4 */
 
 .module-four .module-intro__panel {
-	background-color: rgba(55,20,74,.6);
+	background-color: #8a4d76 !important;
 }
 
 .module-four .module-intro__panel-ribbon {
-	background-color: rgba(55,20,74,.8);
+	background-color: #6a2150 !important;
+
 }
 
 .module-four .module-intro__title {
-	background-color: rgb(55,20,74);
+	background-color: #5a023c !important;
 }
 
 .module-four .module-intro__footer {
@@ -213,7 +214,6 @@
 	color: rgba(55,20,74,1);
 	border-bottom: 1px solid rgb(15,128,156);
 }
-
 
 
 
